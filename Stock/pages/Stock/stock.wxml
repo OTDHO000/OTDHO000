@@ -1,0 +1,27 @@
+<view class="tittle">
+	 <image class="title-image" src="/image/rdbk001.jpg"  mode="aspectFill"/>
+
+</view>
+
+<view class="page-banner">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+    <swiper-item  wx:for="{{hotpoint}}" wx:for-item="item" wx:key="item"> 
+    <navigator url="../new-detail/newdetail?newid={{item.newid}}" opentype="navigate">
+    <image class="banner-image" src="{{item.image}}"    mode="aspectFill" />
+   </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+
+<scroll-view class="page-body" scroll-y="true">
+  <navigator url="../new-detail/newdetail" opentype="navigate" wx:for="{{news}}">
+    <view class="item">
+      <image class="poster" src="{{item.image}}"></image>
+    	 <view class="meta">
+    	 	<text class="tittle">{{item.title}}</text>
+    	 	<text class="sub-tittle">{{item.time}}</text>
+    	 	<text class="source">{{item.source}}</text>
+    	 </view>
+    </view>
+  </navigator>
+</scroll-view>

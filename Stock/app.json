@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/StockGraphic/StockGraphic",
+    "pages/Stock/stock",
+    "pages/logs/logs",
+    "pages/Mystock/Mystock",
+    
+    "pages/Strading/Trading",
+    "pages/new-detail/newdetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath":"pages/Stock/stock",
+        "selectedIconPath":"image/News.jpg",
+        "selectedColor":"grey",      
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Mystock/Mystock",
+        "selectedIconPath":"image/Stockicon.jpg",
+        "selectedColor":"grey",
+        "text": "自选"
+      },
+      {
+        "pagePath": "pages/Strading/Trading",
+        "selectedIconPath":"image/News.jpg",
+        "selectedColor":"grey",
+        "text": "模拟"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

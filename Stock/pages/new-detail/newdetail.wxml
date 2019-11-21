@@ -1,0 +1,3 @@
+<!--pages/new-detail/newdetail.wxml-->
+<text>pages/new-detail/newdetail.wxml</text>
+<text> "{{newid}}"</text>

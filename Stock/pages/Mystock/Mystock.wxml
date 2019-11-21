@@ -1,0 +1,15 @@
+<view class="page-tittle">
+   <navigator url="../StockGraphic/StockGraphic?stockid={{SZ}}" opentype="navigate">
+   <text class="SZ">上证指数{{SZ}}</text>
+   </navigator>
+   <text class="SC">深证成指{{SC}}</text>
+   
+</view> 
+
+<view class="stock-container">
+	<button class="stock1">{{stock1}}</button>
+    <button class="stock1">{{stock1}}</button>
+    <button class="stock1">{{stock1}}</button>
+</view>
+
+

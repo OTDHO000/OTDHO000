@@ -1,0 +1,21 @@
+
+<view class='stock-tittle' >
+	<view class='stock-code'>000001 上证指数</view>
+    <view class='stock-detail'>
+      
+       <view class='date'>日期:20191023</view>
+       <view class='open'>开盘:2982.34</view>
+       <view class='high'>最高:2987.20</view>
+       <view class='low'>最低:2933.24</view>
+       <view class='close'>收盘:2938.14</view>
+       <view class='volume'>成交量:1.5亿</view>
+       <view class='price_change'>涨跌:39.19</view>
+       <view class='p_change'>涨跌幅:-1.32%</view>
+    </view>
+</view>
+
+<view class='stock-canvas'>  
+  <canvas canvas-id="Sgraphic" class="Sgraphic" style='width:{{ScreenWidth}}px  height:200rpx; background-color: #ccc' >
+  </canvas>
+</view>
+

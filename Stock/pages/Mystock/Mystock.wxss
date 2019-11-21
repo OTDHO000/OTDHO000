@@ -1,0 +1,23 @@
+.page-tittle{
+	display: -webkit-flex;
+    /*flex-direction: column; */
+    flex-direction:row;
+    background-color: black;
+}
+.page-tittle text{
+   
+   height: 200rpx;
+   text-align: center;
+   font-size: 40rpx;
+   line-height: 200rpx;
+   color: white;
+}
+
+.SZ{
+	/*background-color: green;*/
+	flex:1;
+}
+.SC{
+	
+	flex:1;
+}
